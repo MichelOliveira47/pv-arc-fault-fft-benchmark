@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and notebooks
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Restricted/large input data
+data_labeled/
+data_labeled.zip
+Oliveira_et_al_PV_ArcFault_Minimal_Dataset.zip
+*.parquet
+
+# Generated results and models
+outputs/
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Logs and temporary files
+*.log
+*.tmp
+~$*

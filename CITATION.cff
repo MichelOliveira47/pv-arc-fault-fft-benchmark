@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated Energies article."
+type: software
+title: "FFT-Based PV Arc-Fault Detection Benchmark"
+version: 1.0.0
+date-released: 2026-10-04
+authors:
+  - family-names: "de Oliveira"
+    given-names: "Michel Braulio"
+repository-code: "https://github.com/MichelOliveira47/pv-arc-fault-fft-benchmark"
+url: "https://doi.org/10.3390/en19163787"
+keywords:
+  - photovoltaic systems
+  - arc-fault detection
+  - fast Fourier transform
+  - machine learning
+  - temporal cross-validation
+  - edge computing
+preferred-citation:
+  type: article
+  title: "Benchmarking RF, KNN, MLP, and CNN for FFT-Based PV Arc Fault Detection: Scaling Choice, Temporal Cross-Validation, and Latency Trade-Offs Toward Edge Deployment"
+  authors:
+    - family-names: "de Oliveira"
+      given-names: "Michel Braulio"
+    - family-names: "Ramos"
+      given-names: "Filipe"
+    - family-names: "Almeida Neto"
+      given-names: "José Cesar de Souza"
+    - family-names: "Almeida"
+      given-names: "Fábio Jesus Moreira"
+    - family-names: "Lima"
+      given-names: "Bruno Luis Soares"
+  journal: "Energies"
+  year: 2026
+  volume: 19
+  issue: 16
+  start: "3787"
+  doi: "10.3390/en19163787"
+  url: "https://doi.org/10.3390/en19163787"
