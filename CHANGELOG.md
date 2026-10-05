@@ -5,6 +5,7 @@
 - Public release of the reproducibility software.
 - Added MIT licensing and explicit software authorship attribution.
 - Added Zenodo-ready open-access metadata for DOI archiving.
+- Archived release DOI: `10.5281/zenodo.23149423` (all-versions DOI: `10.5281/zenodo.23149422`).
 
 All notable changes to the public reproducibility package are documented here.
 

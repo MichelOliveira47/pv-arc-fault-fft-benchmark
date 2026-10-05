@@ -4,12 +4,13 @@ type: software
 title: "FFT-Based PV Arc-Fault Detection Benchmark"
 version: 1.0.0
 date-released: 2026-10-04
+doi: "10.5281/zenodo.23149423"
 authors:
   - family-names: "de Oliveira"
     given-names: "Michel Braulio"
     affiliation: "Mackenzie Presbyterian University"
 repository-code: "https://github.com/MichelOliveira47/pv-arc-fault-fft-benchmark"
-url: "https://doi.org/10.3390/en19163787"
+url: "https://doi.org/10.5281/zenodo.23149423"
 keywords:
   - photovoltaic systems
   - arc-fault detection

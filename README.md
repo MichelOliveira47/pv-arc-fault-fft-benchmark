@@ -1,6 +1,7 @@
 # FFT-Based PV Arc-Fault Detection Benchmark
 
 [![Article DOI](https://img.shields.io/badge/DOI-10.3390%2Fen19163787-2f6fba)](https://doi.org/10.3390/en19163787)
+[![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23149423.svg)](https://doi.org/10.5281/zenodo.23149423)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Repository checks](https://github.com/MichelOliveira47/pv-arc-fault-fft-benchmark/actions/workflows/ci.yml/badge.svg)](https://github.com/MichelOliveira47/pv-arc-fault-fft-benchmark/actions/workflows/ci.yml)
 
@@ -14,7 +15,7 @@ The workflow compares Random Forest (RF), K-Nearest Neighbors (KNN), Multilayer 
 
 ## Release status
 
-The embargo applicable at publication time has been cleared by the principal author. The source code is publicly released under the MIT License. Versioned releases are archived through the GitHub–Zenodo integration to provide a persistent DOI and a citable record.
+The embargo applicable at publication time has been cleared by the principal author. The source code is publicly released under the MIT License. Versioned releases are archived through the GitHub–Zenodo integration. Version 1.0.0 is preserved at [DOI 10.5281/zenodo.23149423](https://doi.org/10.5281/zenodo.23149423); the all-versions DOI is [10.5281/zenodo.23149422](https://doi.org/10.5281/zenodo.23149422).
 
 Software authorship and copyright are attributed to **Michel Braulio de Oliveira**; see [`AUTHORS.md`](AUTHORS.md). The associated article retains its complete scientific author list as recorded in [`CITATION.cff`](CITATION.cff).
 
@@ -201,7 +202,21 @@ RF, KNN, and MLP artifacts are saved as complete scikit-learn pipelines. Each CN
 
 ## Citation
 
-Use the repository's **Cite this repository** control, backed by [`CITATION.cff`](CITATION.cff), or cite the article directly:
+Use the repository's **Cite this repository** control, backed by [`CITATION.cff`](CITATION.cff). Cite the exact archived software release as:
+
+```bibtex
+@software{Oliveira2026PVArcFaultSoftware,
+  author    = {de Oliveira, Michel Braulio},
+  title     = {FFT-Based PV Arc-Fault Detection Benchmark},
+  version   = {1.0.0},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23149423},
+  url       = {https://doi.org/10.5281/zenodo.23149423}
+}
+```
+
+Also cite the associated article:
 
 ```bibtex
 @article{Oliveira2026PVArcFault,
