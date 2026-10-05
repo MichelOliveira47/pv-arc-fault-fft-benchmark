@@ -1,0 +1,48 @@
+name: Reproducibility bug
+description: Report a failure in setup, feature extraction, training, evaluation, or export.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not attach restricted datasets, trained models, credentials, or private institutional material."
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, Python version, and relevant hardware.
+      placeholder: "Windows 11, Python 3.12.9, CPU only"
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Run mode
+      options:
+        - quick_check
+        - full_reproduction
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include commands and PV_ARC_* settings, but no sensitive paths or data.
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error output
+      render: shell
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Preflight checks
+      options:
+        - label: I ran `python scripts/check_input_data.py`.
+        - label: I removed sensitive information from this report.
+          required: true
