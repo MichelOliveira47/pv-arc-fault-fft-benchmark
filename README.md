@@ -14,7 +14,9 @@ The workflow compares Random Forest (RF), K-Nearest Neighbors (KNN), Multilayer 
 
 ## Release status
 
-The published article states that the source code was under institutional, project, and intellectual-property restrictions at publication time and could be considered for release after the applicable embargo. This repository is therefore prepared as a private release candidate. Public visibility and an open-source license must only be enabled after the corresponding authorization has been confirmed.
+The embargo applicable at publication time has been cleared by the principal author. The source code is publicly released under the MIT License. Versioned releases are archived through the GitHub–Zenodo integration to provide a persistent DOI and a citable record.
+
+Software authorship and copyright are attributed to **Michel Braulio de Oliveira**; see [`AUTHORS.md`](AUTHORS.md). The associated article retains its complete scientific author list as recorded in [`CITATION.cff`](CITATION.cff).
 
 ## Method at a glance
 
@@ -216,7 +218,7 @@ Use the repository's **Cite this repository** control, backed by [`CITATION.cff`
 
 ## License and attribution
 
-No open-source license is applied while public-release authorization is pending; see [`NOTICE.md`](NOTICE.md). The article and graphical abstract are attributed separately under the article's CC BY 4.0 terms.
+The software is Copyright © 2026 Michel Braulio de Oliveira and is released under the [MIT License](LICENSE). The article and graphical abstract are attributed separately under the article's CC BY 4.0 terms; see [`NOTICE.md`](NOTICE.md). The labeled derivative dataset is not distributed by this repository and is not covered by the software license.
 
 ## Contact
 

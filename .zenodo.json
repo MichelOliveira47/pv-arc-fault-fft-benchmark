@@ -4,9 +4,14 @@
   "description": "Reproducibility code for the Energies 2026 article benchmarking RF, KNN, MLP, and CNN classifiers for FFT-based photovoltaic arc-fault detection with scaling comparison, temporal cross-validation, and latency evaluation.",
   "creators": [
     {
-      "name": "de Oliveira, Michel Braulio"
+      "name": "de Oliveira, Michel Braulio",
+      "affiliation": "Mackenzie Presbyterian University",
+      "type": "ProjectLeader"
     }
   ],
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
   "keywords": [
     "photovoltaic systems",
     "arc-fault detection",
@@ -19,12 +24,14 @@
     {
       "identifier": "10.3390/en19163787",
       "relation": "isSupplementTo",
-      "scheme": "doi"
+      "scheme": "doi",
+      "resource_type": "publication-article"
     },
     {
       "identifier": "10.21227/WZFE-7973",
       "relation": "isSupplementTo",
-      "scheme": "doi"
+      "scheme": "doi",
+      "resource_type": "dataset"
     }
   ],
   "version": "1.0.0"

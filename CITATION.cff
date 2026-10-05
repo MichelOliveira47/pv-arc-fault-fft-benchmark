@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the associated Energies article."
+message: "If you use this software, please cite the archived software release and the associated Energies article."
 type: software
 title: "FFT-Based PV Arc-Fault Detection Benchmark"
 version: 1.0.0
@@ -7,6 +7,7 @@ date-released: 2026-10-04
 authors:
   - family-names: "de Oliveira"
     given-names: "Michel Braulio"
+    affiliation: "Mackenzie Presbyterian University"
 repository-code: "https://github.com/MichelOliveira47/pv-arc-fault-fft-benchmark"
 url: "https://doi.org/10.3390/en19163787"
 keywords:

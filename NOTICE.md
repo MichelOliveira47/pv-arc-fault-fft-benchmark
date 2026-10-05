@@ -2,7 +2,7 @@
 
 ## Code release
 
-The associated article states that the source code was not publicly available at publication time because of institutional, project, and intellectual-property restrictions and that a future release could be considered after the applicable embargo. No open-source license is granted by this repository until the relevant authorization is confirmed and a license file is added.
+The restrictions applicable at publication time have been cleared for the software release. The source code is Copyright © 2026 Michel Braulio de Oliveira and is distributed under the MIT License. See `LICENSE` and `AUTHORS.md`.
 
 ## Article and graphical abstract
 
